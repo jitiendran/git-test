@@ -17,7 +17,21 @@ p{
     display: flex;
     justify-content: center;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
 .para{
     display: flex;
     justify-content: center;
+    width: 50%;
+    border-radius: 1.5em;
+    padding: 1em;
+    box-shadow: inset 0 0 0 1px gainsboro;
 }
+.para:hover{
+    width: 60%;
+    box-shadow: inset 0 0 0 2px aquamarine;
+}
+.fa-quote-left:hover{ color: aquamarine; }
